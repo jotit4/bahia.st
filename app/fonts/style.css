@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: local('Encorpada Classic Semi Bold'), local('Encorpada-Classic-Semi-Bold'),
+        url('EncorpadaClassic-SemiBold.woff2') format('woff2'),
+        url('EncorpadaClassic-SemiBold.woff') format('woff'),
+        url('EncorpadaClassic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
