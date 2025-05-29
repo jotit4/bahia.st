@@ -7,6 +7,13 @@ import { motion } from "framer-motion"
 import { Heart, Share2, ChevronDown, ChevronUp, Minus, Plus } from "lucide-react"
 import { products } from "@/mocks/products"
 
+// Generate static params for all product slugs
+export async function generateStaticParams() {
+  return products.map((product) => ({
+    slug: product.slug,
+  }))
+}
+
 interface ProductPageProps {
   params: {
     slug: string
