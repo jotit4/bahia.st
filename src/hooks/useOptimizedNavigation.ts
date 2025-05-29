@@ -7,7 +7,7 @@ interface UseOptimizedNavigationOptions {
   prefetchOnMount?: boolean
   prefetchDelay?: number
 }
-
+// optimizador la navegación de la aplicación
 export function useOptimizedNavigation(options: UseOptimizedNavigationOptions = {}) {
   const { prefetchOnMount = true, prefetchDelay = 100 } = options
   const router = useRouter()
