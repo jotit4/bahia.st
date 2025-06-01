@@ -16,9 +16,19 @@ const playfair = Playfair_Display({
 })
 
 const encorpadaClassic = localFont({
-  src: "./fonts/EncorpadaClassic-SemiBold.woff2",
+  src: [
+    {
+      path: "/fonts/EncorpadaClassic-SemiBold.woff2",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "/fonts/EncorpadaClassic-SemiBold.woff",
+      weight: "600",
+      style: "normal",
+    },
+  ],
   variable: "--font-encorpada",
-  weight: "600",
   display: "swap",
 })
 
